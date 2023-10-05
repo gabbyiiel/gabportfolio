@@ -93,7 +93,7 @@
 	--light-secondary: #dad7d7;
 	--light-accent: #796d6f;
 	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
+	color: var(--light-text);
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -103,6 +103,8 @@
 }
 
 body {
+	background-color: var(--light-background);
+	overflow-x: hidden;
 	margin: 0;
 	width: 100%;
 	height: 100%;

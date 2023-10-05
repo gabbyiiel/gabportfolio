@@ -1,0 +1,62 @@
+.bgContainer {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.022;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	pointer-events: none;
+}
+
+.heroSmallTitle {
+	@apply flex;
+}
+
+.heroTitle {
+	@apply uppercase text-text font-GT;
+}
+
+.heroEndSmallTitle {
+	@apply flex justify-end;
+}
+
+.bgHeroInnovate,
+.bgHeroDesign,
+.bgHeroDevelop {
+	font-family: 'GT Eesti Pro Display', sans-serif;
+	font-weight: bold;
+	font-size: 22vw;
+	line-height: 71.5%;
+	text-transform: uppercase;
+	color: var(--light-text);
+}
+
+.heroContainer {
+	@apply flex items-center justify-center w-screen h-screen;
+}
+
+.heroTitleContainer {
+	@apply flex flex-col gap-5;
+}
+
+/* @media screen and (max-width: 1024px) {
+	.bgHeroDevelop,
+	.bgHeroInnovate,
+	.bgHeroDesign {
+		font-size: 13.75rem;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.bgHeroInnovate,
+	.bgHeroDesign,
+	.bgHeroDevelop {
+		font-size: 24rem;
+		background-color: red;
+	}
+} */
