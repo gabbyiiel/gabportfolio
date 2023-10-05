@@ -1,0 +1,13 @@
+.bgContainer {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#bgHeroInnovate,
+#bgHeroDesign,
+#bgHeroDevelop {
+	font-family: 'GT Eesti Pro Display', sans-serif;
+	font-weight: bold;
+	font-size: 25rem;
+}
