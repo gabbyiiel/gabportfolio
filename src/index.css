@@ -103,6 +103,7 @@
 }
 
 body {
+	background-image: url('/bgNoise.png');
 	background-color: var(--light-background);
 	overflow-x: hidden;
 	margin: 0;

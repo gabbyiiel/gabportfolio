@@ -12,6 +12,7 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	pointer-events: none;
+	height: 100vh;
 }
 
 .heroSmallTitle {
@@ -21,18 +22,19 @@
 .heroTitle {
 	@apply uppercase text-text font-GT;
 }
+.heroTitle.heroLargeTitle {
+	@apply font-bold text-[6.5em] leading-[4.5rem];
+}
 
 .heroEndSmallTitle {
 	@apply flex justify-end;
 }
 
-.bgHeroInnovate,
-.bgHeroDesign,
-.bgHeroDevelop {
+.bgContainer > span {
 	font-family: 'GT Eesti Pro Display', sans-serif;
 	font-weight: bold;
 	font-size: 22vw;
-	line-height: 71.5%;
+	line-height: 75%;
 	text-transform: uppercase;
 	color: var(--light-text);
 }
