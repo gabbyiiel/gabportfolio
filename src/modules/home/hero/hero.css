@@ -17,17 +17,21 @@
 
 .heroSmallTitle {
 	@apply flex;
+	user-select: none;
 }
 
 .heroTitle {
 	@apply uppercase text-text font-GT;
+	user-select: none;
 }
 .heroTitle.heroLargeTitle {
 	@apply font-bold text-[6.5em] leading-[4.5rem];
+	user-select: none;
 }
 
 .heroEndSmallTitle {
 	@apply flex justify-end;
+	user-select: none;
 }
 
 .bgContainer > span {
@@ -37,6 +41,7 @@
 	line-height: 75%;
 	text-transform: uppercase;
 	color: var(--light-text);
+	user-select: none;
 }
 
 .heroContainer {
