@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import './App.css';
 import { Hero2 } from './modules/home/hero/Hero2';
 import { gsap } from 'gsap';
+import Footer from './modules/common/footer/footer';
+// import { Project } from './modules/home/project/project';
 
 function App() {
 	useEffect(() => {
@@ -27,6 +29,8 @@ function App() {
 			<div className="cursor"></div>
 			<div className="cursor follower"></div>
 			<Hero2 />
+			{/* <Project /> */}
+			<Footer />
 		</>
 	);
 }
