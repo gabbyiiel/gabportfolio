@@ -129,3 +129,40 @@ body {
 	width: 35px;
 	height: 35px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'GT Eesti Pro Display', sans-serif;
+	font-weight: bold;
+	color: var(--light-text);
+}
+
+span,
+p {
+	font-family: 'Groningen', sans-serif;
+}
+h1 {
+	@apply text-[65px] leading-[72px];
+}
+
+h2 {
+	@apply text-[52px] leading-[64px];
+}
+
+h3 {
+	@apply text-[41px] leading-[48px];
+}
+
+h4 {
+	@apply text-[33px] leading-10;
+}
+h5 {
+	@apply text-[27px] leading-loose;
+}
+h6 {
+	@apply text-[21px] leading-normal;
+}
