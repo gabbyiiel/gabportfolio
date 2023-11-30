@@ -30,6 +30,3 @@
 .footer__text {
 	@apply flex flex-col items-center justify-center;
 }
-.footer__text span {
-	@apply text-sm text-accent;
-}

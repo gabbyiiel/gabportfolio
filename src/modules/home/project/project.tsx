@@ -1,5 +1,3 @@
-import Desktop from '../../common/Devices/desktop';
-import './project.css';
 export const Project = () => {
 	return (
 		<>
